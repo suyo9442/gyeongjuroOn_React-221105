@@ -1,0 +1,26 @@
+:root {
+  --main-color: #52A1FF;
+  --second-color: #85bcff;
+  --third-color: #b8d8ff;
+  --point-blue: #1f69ff;
+  --point-red: #f83f60;
+  --point-pink: #fca2b2;
+  --point-yellow: #f7c513;
+  --font-size-sxs: 11px;
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xlg: 20px;
+  --font-size-xxlg: 24px;
+  --font-en: 'Poppins', sans-serif;
+  --font-ko: 'Noto Sans KR', sans-serif;
+  --font-mix: 'Poppins', 'Noto Sans KR', sans-serif;
+  --base-margin: 24px;
+  --base-padding: 20px;
+  --base-gutter: 12px;
+  --base-radius: 16px;
+}
+html {font-size: 14px}
+body {overflow-x: hidden}
+.container {padding: 0 var(--base-padding);}
